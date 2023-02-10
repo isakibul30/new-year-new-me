@@ -1,0 +1,247 @@
+/* --------------------------------
+ common
+ -------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* --------------------------------
+ navbar
+ -------------------------------- */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.brand-section h1{
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+}
+.nav-container{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu-section ul{
+    display: flex;
+    text-align: center;
+}
+
+.menu-section ul li{
+    list-style: none;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+
+
+/* --------------------------------
+ header
+ -------------------------------- */
+header{
+    background:  url(images/banner1.png);
+    height: 100vh;
+}
+
+.header-content-area{
+    width: 400px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 120px;
+    text-align: right;
+}
+
+.header-content-area h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header-content-area button{
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(22, 82%, 52%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* --------------------------------
+ failures-section
+ -------------------------------- */
+.failures-section{
+    margin: 0 10%;
+    margin-top: 200px;
+    display: flex;
+}
+
+.failures-section .section-details{
+    margin-top: 200px;
+}
+
+.failures-section .section-details h1{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.details{
+    margin-bottom: 20px;
+}
+
+.failures-section .section-details p i{
+    color: green;
+}
+
+
+/* --------------------------------
+ plan-section
+ -------------------------------- */
+.plan-section{
+    margin: 140px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-section h1{
+    font-size: 2rem;
+}
+
+.plan-section .plans{
+    margin-top: 40px;
+    display: flex;
+}
+
+.plan-section .plans div{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-section .plans div img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.plan-section .plans h3{
+    margin-bottom: 6px;
+}
+
+
+/* --------------------------------
+extra-section
+ -------------------------------- */
+.extra{
+    margin: 150px 150px;
+    height: 300px;
+    background-image: url(images/gradient2.png),url(images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left right,left right;
+}
+.contant{
+    position: absolute;
+    margin-left: 30px;
+    color: white;
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.extra-btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color:black;
+    background:white;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* --------------------------------
+ footer 
+ -------------------------------- */
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+}
+
+.footer-content{
+    margin: 0 10%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.contact-information{
+    width: 400px;
+}
+
+.contact-information p{
+    margin: 20px 0;
+}
+
+.contact-information div i{
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    background-color: rgb(160, 119, 62);
+    text-align: center;
+    border-radius: 50%;
+}
+
+.subscribe-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-field{
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px 0;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.subscribe-section button{
+    height: 50px;
+    width: 120px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(22, 82%, 52%);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
